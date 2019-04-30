@@ -18,21 +18,21 @@ Nastavení:
   - v případě nevybrání žádné z možností screensaver zobrazí pouze první stránku v seznamu
 -smazání nebo posunutí adresy stránky v seznamu provedete prostřednictvím pravého tlačítka myši na vybrané adrese
 
-*  Poznámka k nastavení:
+Poznámka k nastavení:
   - nezapomenout na vypínání displeje v nastavení windows
   - nainportovat certifikáty, aby bylo možné se na stránku dostat (https)
   - do nastavení screensaveru se nelze dostat v případě zaplého applockeru (podepište exe)
  
 Po nastavení jsou v registru „HKU:\.DEFAULT\Control Panel\Desktop“ nastaveny hodnoty:
-    ScreenSaveActive : 1 --spuštění screensaveru
-    ScreenSaveTimeOut : 30 --nastavení času spuštění screensaveru po neaktivitě (v sekundách)
-    SCRNSAVE.EXE : cesta ke screensaveru
-Vytvoření „HKU:\.DEFAULT\Control Panel\Desktop\screensaver“   
-    CloseOnActivity : True/False --přerušit pohybem myši
-    RandomOrder : True/False --přepínání stránek
-    RotationInterval : čas přepínání stránek (v sekundách)
-    SCRLOG a SCRPASS: přihlašovací jmeno a heslo v zašifrovaném tvaru
-    Url : řetězec s url, adresy jsou odděleny mezerou a adresa na začátku je první v pořadí seznamu
+   - ScreenSaveActive : 1 --spuštění screensaveru
+   - ScreenSaveTimeOut : 30 --nastavení času spuštění screensaveru po neaktivitě (v sekundách)
+   - SCRNSAVE.EXE : cesta ke screensaveru
+- Vytvoření „HKU:\.DEFAULT\Control Panel\Desktop\screensaver“   
+   - CloseOnActivity : True/False --přerušit pohybem myši
+   - RandomOrder : True/False --přepínání stránek
+   - RotationInterval : čas přepínání stránek (v sekundách)
+   - SCRLOG a SCRPASS: přihlašovací jmeno a heslo v zašifrovaném tvaru
+   - Url : řetězec s url, adresy jsou odděleny mezerou a adresa na začátku je první v pořadí seznamu
     
     
  
