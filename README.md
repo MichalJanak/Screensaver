@@ -14,7 +14,7 @@ Zavedení screensaveru:
 Nastavení:
 - Screensaver funguje v několika režimech:
   1) Zobrazí stránku, která je první v seznamu stránek s možnosti přerušení screensaveru pohybem myši
-  2) - Přepíná zavedené stránky v definovaném časovém intervalu
+  2) Přepíná zavedené stránky v definovaném časovém intervalu
      - v případě nevybrání žádné z možností screensaver zobrazí pouze první stránku v seznamu
 -smazání nebo posunutí adresy stránky v seznamu provedete prostřednictvím pravého tlačítka myši na vybrané adrese
 
