@@ -9,7 +9,6 @@ Zavedení screensaveru:
 - Před samotnou instalací je třeba nastavit oprvánění “full Control“ pro skupinu „Authenticated Users“ na registr „HKU:\.DEFAULT\Control Panel\Desktop“ 
   - důvod proč ./DEFAULT: po startu pc se jako první přihlašuje ./Default (účet systému), 
   - důvod proč práva: jinak nebudete schoptni zapsat parametry do registru při konfiguraci screensaveru
-- Web-page-screensaver.exe -> změnit koncovku na .scr
 - soubor primárně ukládám do system32 mezi ostatní screensavery windows, ale lze ho uložit kamkoli na systémový disk
 - spusťte kontextové okno screensaveru -> install 
 
