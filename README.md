@@ -21,8 +21,8 @@ Nastavení:
 
 Poznámka k nastavení:
   - nezapomenout na vypínání displeje v nastavení windows
-  - nainportovat certifikáty, aby bylo možné se na stránku dostat (https)
-  - do nastavení screensaveru se nelze dostat v případě zaplého applockeru (podepište exe)
+  - nainportovat certifikáty (jestli jsou potřeba), aby bylo možné se na stránku dostat 
+  - do nastavení screensaveru se nelze dostat v případě zaplého applockeru 
  
 Po nastavení jsou v registru „HKU:\.DEFAULT\Control Panel\Desktop“ nastaveny hodnoty:
    - ScreenSaveActive : 1 --spuštění screensaveru
