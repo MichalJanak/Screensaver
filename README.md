@@ -17,6 +17,7 @@ Nastavení:
   1) Zobrazí stránku, která je první v seznamu stránek s možnosti přerušení screensaveru pohybem myši
   2) Přepíná zavedené stránky v definovaném časovém intervalu
   - v případě nevybrání žádné z možností screensaver zobrazí pouze první stránku v seznamu, která se nebude vypínát pohybem myši
+  - důvod proč lze vybrat jen jednu z možností: funkce vypnutí pohybem myši a přepínání mezi vícero stránkami funguje pouze pod uživatelským účtem. V případě systému dochází v momentě přehození stránky k přerušení screensaveru (chyba nebyla nalezena). Rovněž bylo zjištěno, že v případě více stránek uživatel někdy nestačí zachytit zobrazované informace, proto jsou v tomto případě přidána tlačítka pro vynucené přepnutí nebo pozastavení stránek a tak vypnutí pohybem není žádoucí
 - smazání nebo posunutí adresy stránky v seznamu provedete prostřednictvím pravého tlačítka myši na vybrané adrese
 
 Poznámka k nastavení:
@@ -34,6 +35,10 @@ Vytvoření „HKU:\.DEFAULT\Control Panel\Desktop\screensaver“
    - RotationInterval : čas přepínání stránek (v sekundách)
    - SCRLOG a SCRPASS: přihlašovací jmeno a heslo v zašifrovaném tvaru
    - Url : řetězec s url, adresy jsou odděleny mezerou a adresa na začátku je první v pořadí seznamu
+   
+Prostor pro zlepšení
+ - vyřešit přihlašovací formulář pro různé druhy stránek
+ - možnost se příhlásit pod různými hesly na více stránek
    
   
     
